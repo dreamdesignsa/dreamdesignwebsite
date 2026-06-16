@@ -1,12 +1,14 @@
-﻿ <!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>شركة تصميم الأحلام للطباعة</title>
+    <title>شركة تصميم الأحلام للطباعة والدعاية والإعلان | مطابع الرياض</title>
+    <meta name="description" content="شركة تصميم الأحلام للطباعة والدعاية والإعلان بالرياض. نقدم خدمات طباعة الكروت الفاخرة، الأكياس، البوكسات، اللوحات المضيئة، والستيكرات بأعلى جودة وأفضل أسعار. شحن لكافة أنحاء المملكة.">
+    <meta name="keywords" content="مطبعة الرياض, مطابع الرياض, طباعة كروت شخصية, طباعة بوكسات, طباعة أكياس, دعاية وإعلان الرياض, لوحات مضيئة, طباعة تيشرتات, شركة طباعة">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -15,19 +17,21 @@
     <!-- الهيدر / شريط التنقل -->
     <header>
         <div class="container header-container">
-<div class="logo">
-   <img src="./images/logo.jpg" alt="شعار تصميم الأحلام">
-    <div class="logo-text">
-        <h1>شركة تصميم الأحلام للطباعة</h1>
-        <span class="en-text">Dream Design Printing Company</span>
-    </div>
-</div>
+            <div class="logo">
+                <img src="./images/logo.jpg" alt="شعار تصميم الأحلام">
+                <div class="logo-text">
+                    <h1>شركة تصميم الأحلام للطباعة</h1>
+                    <span class="en-text">Dream Design Printing Company</span>
+                </div>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#about">من نحن</a></li>
                     <li><a href="#services">خدماتنا</a></li>
                     <li><a href="#products">منتجاتنا</a></li>
                     <li><a href="#contact">اتصل بنا</a></li>
+                    <!-- رابط موقعنا: الرياض المربوط بالخريطة في الأسفل -->
+                    <li><a href="#contact" class="nav-location"><i class="fas fa-map-marker-alt"></i> موقعنا: الرياض</a></li>
                 </ul>
             </nav>
             <div class="quick-contact">
@@ -36,6 +40,14 @@
             </div>
         </div>
     </header>
+
+    <!-- شريط معلومات الشحن المضاف حديثاً -->
+    <div class="shipping-bar">
+        <div class="shipping-bar-content">
+            <i class="fas fa-shipping-fast shipping-icon"></i>
+            <span>شحن لكافة أنحاء المملكة</span>
+        </div>
+    </div>
 
     <!-- الواجهة الافتتاحية للموقع -->
     <section class="hero">
@@ -58,17 +70,17 @@
                     <h3>لماذا شركة تصميم الأحلام؟</h3>
                     <div class="why-grid">
                         <div class="why-item">
-                            <i class="fas fa-lightbulb"></i>
+                            <div class="why-icon-box"><i class="fas fa-lightbulb"></i></div>
                             <h4>إبداع بلا حدود</h4>
                             <p>حلول تصميمية مبتكرة تناسب هويتك التسويقية وتبرز قوتك.</p>
                         </div>
                         <div class="why-item">
-                            <i class="fas fa-users"></i>
+                            <div class="why-icon-box"><i class="fas fa-users"></i></div>
                             <h4>فريق احترافي</h4>
                             <p>نخبة من المصممين والفنيين المهرة يعملون بشغف لأجلك.</p>
                         </div>
                         <div class="why-item">
-                            <i class="fas fa-check-circle"></i>
+                            <div class="why-icon-box"><i class="fas fa-check-circle"></i></div>
                             <h4>التزام تام</h4>
                             <p>دقة متناهية في المواعيد، جودة فائقة، وأسعار تنافسية تناسب تطلعاتك.</p>
                         </div>
@@ -77,7 +89,8 @@
             </div>
         </div>
     </section>
-<!-- قسم الخدمات -->
+
+    <!-- قسم الخدمات -->
     <section id="services" class="services-section">
         <div class="container">
             <h2 class="section-title">خدماتنا</h2>
@@ -108,194 +121,199 @@
             <div class="products-grid">
                 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p1.jpeg" alt="كروت شخصية فاخرة"></div>
+                    <div class="product-img-box"><img src="./images/img/p1.jpeg" alt="طباعة كروت شخصية فاخرة في السعودية الرياض"></div>
                     <h3>كروت شخصية فاخرة</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب كروت شخصية فاخرة" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p3.jpeg" alt="فولدرات"></div>
+                    <div class="product-img-box"><img src="./images/img/p3.jpeg" alt="طباعة فولدر في السعودية الرياض"></div>
                     <h3>فولدرات</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب فولدرات" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p4.jpeg" alt="أوراق رسمية"></div>
+                    <div class="product-img-box"><img src="./images/img/p4.jpeg" alt="طباعة أوراق رسمية في السعودية الرياض"></div>
                     <h3>أوراق رسمية</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أوراق رسمية" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p5.jpeg" alt="أكواب بلاستيك"></div>
+                    <div class="product-img-box"><img src="./images/img/p5.jpeg" alt="طباعةأكواب بلاستيك في السعودية الرياض"></div>
                     <h3>أكواب بلاستيك</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أكواب بلاستيك" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p6.jpeg" alt="أكواب ورقية"></div>
+                    <div class="product-img-box"><img src="./images/img/p6.jpeg" alt="طباعة أكواب ورقية في السعودية الرياض"></div>
                     <h3>أكواب ورقية</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أكواب ورقية" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p7.jpeg" alt="ستيكر بلوتر"></div>
-                    <h3>ستيكر بلوتر</h3>
+                    <div class="product-img-box"><img src="./images/img/p7.jpeg" alt="طباعة استيكر استكرات في السعودية الرياض"></div>
+                    <h3>طباعة استيكرات</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب ستيكر بلوتر" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p8.jpeg" alt="ستيكر تغليف سيارات"></div>
+                    <div class="product-img-box"><img src="./images/img/p8.jpeg" alt="طباعة على السيارات السعودية الرياض"></div>
                     <h3>ستيكر تغليف سيارات</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب ستيكر تغليف سيارات" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
  
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p9.jpeg" alt="أكياس بلاستيك"></div>
+                    <div class="product-img-box"><img src="./images/img/p9.jpeg" alt="أطباعة أكياس بلاستيك السعودية الرياض"></div>
                     <h3>أكياس بلاستيك</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أكياس بلاستيك" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p10.jpeg" alt="أكياس وورق تغليف"></div>
-                    <h3>أكياس وورق تغليف</h3>
-                    <a href="https://wa.me/966555898658?text=أريد طلب أكياس وورق تغليف" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
+                    <div class="product-img-box"><img src="./images/img/p10.jpeg" alt="طباعة أكياس وورق تغليف في السعودية الرياض"></div>
+                    <h3>ورق تغليف</h3>
+                    <a href="https://wa.me/966555898658?text=أريد طلب وورق تغليف" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p11.jpeg" alt="أكياس كرتون"></div>
-                    <h3>أكياس كرتون</h3>
-                    <a href="https://wa.me/966555898658?text=أريد طلب أكياس كرتون" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
+                    <div class="product-img-box"><img src="./images/img/p11.jpeg" alt="طباعة أكياس كرفت في السعودية الرياض"></div>
+                    <h3>أكياس كرفت</h3>
+                    <a href="https://wa.me/966555898658?text=أريد طلب أكياس كرفت" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p12.jpeg" alt="أكياس قماش"></div>
+                    <div class="product-img-box"><img src="./images/img/p12.jpeg" alt="طباعةأكياس قماش في الرياض السعودية"></div>
                     <h3>أكياس قماش</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أكياس قماش" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p13.jpeg" alt="أكياس عبايات"></div>
+                    <div class="product-img-box"><img src="./images/img/p13.jpeg" alt="طباعةأكياس عبايات بكج عبايات في الرياض السعودية"></div>
                     <h3>أكياس عبايات</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أكياس عبايات" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p14.jpeg" alt="رول أب ستاند"></div>
+                    <div class="product-img-box"><img src="./images/img/p14.jpeg" alt="طباعة رول أب ستاند في الرياض السعودية"></div>
                     <h3>رول أب ستاند</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب رول أب ستاند" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p15.jpeg" alt="بوكس عباية"></div>
+                    <div class="product-img-box"><img src="./images/img/p15.jpeg" alt="طباعة بوكس عباية بكج عباية الرياض السعودية"></div>
                     <h3>بوكس عباية</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بوكس عباية" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p16.jpeg" alt="بوكس كرتون"></div>
+                    <div class="product-img-box"><img src="./images/img/p16.jpeg" alt="طباعة بوكس كرتون الرياض السعودية"></div>
                     <h3>بوكس كرتون</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بوكس كرتون" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p17.jpeg" alt="فيست و هيلميت"></div>
+                    <div class="product-img-box"><img src="./images/img/p17.jpeg" alt="طباعة فيست و هيلميت في الرياض السعودية"></div>
                     <h3>فيست و هيلميت</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب فيست وهيلميت" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p18.jpeg" alt="بوب أب"></div>
+                    <div class="product-img-box"><img src="./images/img/p18.jpeg" alt="طباعة بوب أب في الرياض السعودية"></div>
                     <h3>بوب أب</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بوب أب" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
-                </div> <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p19.jpeg" alt="بنر"></div>
+                </div> 
+                
+                <div class="product-card">
+                    <div class="product-img-box"><img src="./images/img/p19.jpeg" alt="طباعة بنر في الرياض السعودية"></div>
                     <h3>بنر</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بنر" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p20.jpeg" alt="بروفايل"></div>
+                    <div class="product-img-box"><img src="./images/img/p20.jpeg" alt="طباعة بروفايلات في الرياض السعودية"></div>
                     <h3>بروفايل</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بروفايل" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p21.jpeg" alt="بطاقة آي دي مع الشريط"></div>
+                    <div class="product-img-box"><img src="./images/img/p21.jpeg" alt="طباعة بطاقة id مع الشريط في الرياض السعودية"></div>
                     <h3>بطاقة آي دي مع الشريط</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بطاقة آي دي مع الشريط" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p22.jpeg" alt="ختم عادي وأوتوماتيك"></div>
+                    <div class="product-img-box"><img src="./images/img/p22.jpeg" alt="طباعة أختام في الرياض السعودية"></div>
                     <h3>ختم عادي وأوتوماتيك</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أختام" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p23.jpeg" alt="أسوار مشاريع"></div>
+                    <div class="product-img-box"><img src="./images/img/p23.jpeg" alt="طباعةأسوار مشاريع في الرياض السعودية"></div>
                     <h3>أسوار مشاريع</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أسوار مشاريع" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p24.jpeg" alt="بوكس هارد كفر"></div>
+                    <div class="product-img-box"><img src="./images/img/p24.jpeg" alt="طباعة بوكس هارد كفر في الرياض "></div>
                     <h3>بوكس هارد كفر</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بوكس هارد كفر" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p25.jpeg" alt="بوكسات جلد وطباعة على الجلد"></div>
+                    <div class="product-img-box"><img src="./images/img/p25.jpeg" alt="بوكسات جلد وطباعة على الجلد في الرياض"></div>
                     <h3>بوكسات جلد وطباعة على الجلد</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بوكسات جلد وطباعة على الجلد" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p26.jpeg" alt="طباعة وتطريز على التيشيرتات"></div>
+                    <div class="product-img-box"><img src="./images/img/p26.jpeg" alt="طباعة زي موحدوتتطريز على التيشيرتات في الرياض "></div>
                     <h3>طباعة وتطريز على التيشيرتات</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب طباعة على تيشيرتات" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p27.jpeg" alt="لوحات اكريلك"></div>
+                    <div class="product-img-box"><img src="./images/img/p27.jpeg" alt="طباعة لوحات اكريلك في الرياض السعودية"></div>
                     <h3>لوحات اكريليك</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب لوحات اكريلك" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p28.jpeg" alt="دفاتر فواتير وسندات"></div>
+                    <div class="product-img-box"><img src="./images/img/p28.jpeg" alt="طباعة دفاتر فواتير وسندات في الرياض "></div>
                     <h3>دفاتر فواتير وسندات</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب دفاتر فواتير وسندات" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
-                </div> <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p29.jpeg" alt="فواتير كومبيوتر"></div>
+                </div> 
+                
+                <div class="product-card">
+                    <div class="product-img-box"><img src="./images/img/p29.jpeg" alt="طباعة فواتير كومبيوتر في الرياض السعودية"></div>
                     <h3>فواتير كومبيوتر</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب فواتير كومبيوتر" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p30.jpeg" alt="أكياس قهوة"></div>
+                    <div class="product-img-box"><img src="./images/img/p30.jpeg" alt="طباعة أكياس قهوة في الرياض السعودية"></div>
                     <h3>أكياس قهوة</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب أكياس قهوة" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p31.jpeg" alt="لوحات أحرف مضيئة"></div>
+                    <div class="product-img-box"><img src="./images/img/p31.jpeg" alt="طباعة لوحات في الرياض أحرف مضيئة"></div>
                     <h3>لوحات أحرف مضيئة</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب لوحات أحرف مضيئة" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p32.jpeg" alt="بوكسات خشب"></div>
+                    <div class="product-img-box"><img src="./images/img/p32.jpeg" alt="طباعة بوكسات خشب في الرياض"></div>
                     <h3>بوكسات خشب</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب بوكسات خشب" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
 
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p33.jpeg" alt="طباعة يو في وحفر"></div>
+                    <div class="product-img-box"><img src="./images/img/p33.jpeg" alt="طباعة يو في وحفر في الرياض "></div>
                     <h3>طباعة يو في وحفر</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب طباعة يوفي وحفر" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
+                
                 <div class="product-card">
-                    <div class="product-img-box"><img src="./images/img/p34.jpeg" alt="طباعة ثري دي"></div>
+                    <div class="product-img-box"><img src="./images/img/p34.jpeg" alt="طباعة ثري دي في الرياض"></div>
                     <h3>طباعة ثري دي</h3>
                     <a href="https://wa.me/966555898658?text=أريد طلب طباعة ثري دي" class="btn-order" target="_blank"><i class="fab fa-whatsapp"></i> طلب واتساب</a>
                 </div>
@@ -305,54 +323,56 @@
     </section>
 
     <!-- قسم اتصل بنا -->
-  <section id="contact" class="contact-section">
-            <div class="container">
-                <h2 class="section-title">اتصل بنا</h2>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">اتصل بنا</h2>
                 
-                <div class="contact-grid">
+            <div class="contact-grid">
                     
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
-                        <h3>الهاتف</h3>
-                        <a href="tel:+966555898658" dir="ltr">+966 55 589 8658</a>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
-                        <h3>البريد الإلكتروني</h3>
-                        <a href="mailto:mkashto@hotmail.com">mkashto@hotmail.com</a>
-                    </div>
-
-                    <div class="contact-item">
-                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
-                        <h3>واتساب</h3>
-                        <a href="https://wa.me/966555898658" target="_blank">تواصل معنا مباشرة</a>
-                    </div>
-
-                </div> <div class="map-section-center">
-                    <div class="contact-item map-item">
-                        <div class="contact-icon"><i class="fas fa-map-marked-alt"></i></div>
-                        <h3>موقع المطبعة</h3>
-                        <div class="map-container">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d226.69006312962767!2d46.739553!3d24.6222714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f056f1ff75151%3A0xa970d159b47d50cc!2z2LTYsdmD2Kkg2KrYtdmF2YrZhSDYp9mE2KPYrdmE2KfZhSDZhNmE2LfYqNin2LnYqQ!5e0!3m2!1sar!2ssa!4v1780247966175!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>الهاتف</h3>
+                    <a href="tel:+966555898658" dir="ltr">+966 55 589 8658</a>
                 </div>
 
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>البريد الإلكتروني</h3>
+                    <a href="mailto:mkashto@hotmail.com">mkashto@hotmail.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>واتساب</h3>
+                    <a href="https://wa.me/966555898658" target="_blank">تواصل معنا مباشرة</a>
+                </div>
+
+            </div> 
+            
+            <div class="map-section-center">
+                <div class="contact-item map-item">
+                    <div class="contact-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3>موقع المطبعة</h3>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d226.69009533555726!2d46.73942084685417!3d24.622253638870717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f05e05b32d61f%3A0x47d0c1916066191c!2z2LTYsdmD2Kkg2KrYtdmF2YrZhSDYp9mE2KPYrdmE2KfZhSAtINmC2LPZhSDYp9mE2YXYqNmK2LnYp9iq!5e0!3m2!1sar!2ssa!4v1781622322917!5m2!1sar!2ssa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
-        </section>
+
+        </div>
+    </section>
 
     <!-- تذييل الصفحة / الفوتر -->
     <footer>
         <div class="container footer-container">
             <div class="footer-logo">
-    <img src="images/logo.jpg" alt="شعار شركة تصميم الأحلام"> 
-    
-    <div class="footer-logo-text">
-        <h3>شركة تصميم الأحلام للطباعة</h3>
-        <span class="en-text">Dream Design Printing Company</span>
-    </div>
-</div>
+                <img src="images/logo.jpg" alt="شعار شركة تصميم الأحلام"> 
+        
+                <div class="footer-logo-text">
+                    <h3>شركة تصميم الأحلام للطباعة</h3>
+                    <span class="en-text">Dream Design Printing Company</span>
+                </div>
+            </div>
             <ul class="footer-links">
                 <li><a href="#about">من نحن</a></li>
                 <li><a href="#services">خدماتنا</a></li>
